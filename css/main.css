@@ -14,10 +14,14 @@ body {
 
 .banner {
   background-color: #2b3851;
+display: block;
 }
 
 .robot {
   width: 320px;
+  display: block;
+  margin: 0;
+  position: relative;
 }
 
 .robot-body {
@@ -31,6 +35,11 @@ body {
   position: absolute;
   top: 70px;
   left: 135px;
+}
+
+.robot-head-right,
+.robot-head-left {
+  width: 125px;
 }
 
 .robot-head-right {
